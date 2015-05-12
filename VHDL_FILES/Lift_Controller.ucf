@@ -1,0 +1,30 @@
+NET "clk" LOC = P43;
+NET "m0" LOC = P56; # Direction 
+NET "m1" LOC = P13; # step clock
+NET sleep LOC = P44; # sleep to disable the motor
+ 
+NET "Seven_Segment(6)" LOC = P37;
+NET "Seven_Segment(5)" LOC = P36;
+NET "Seven_Segment(4)" LOC = P57;
+NET "Seven_Segment(3)" LOC = P61;
+NET "Seven_Segment(2)" LOC = P62;
+NET "Seven_Segment(1)" LOC = P50;
+NET "Seven_Segment(0)" LOC = P52;
+ 
+NET "calls(0)" LOC = P21; 
+NET "calls(1)" LOC = P32;
+NET "calls(2)" LOC = P33;
+NET "calls(3)" LOC = P34;
+NET "calls(4)" LOC = P35;
+ 
+NET "menu(0)" LOC = P3;
+NET "menu(1)" LOC = P4;
+NET "menu(2)" LOC = P7;
+NET "menu(3)" LOC = P19;
+NET "menu(4)" LOC = P20;
+ 
+NET "sensors_in(0)" LOC = P39;
+NET "sensors_in(1)" LOC = P68;
+NET "sensors_in(2)" LOC = P82;
+NET "sensors_in(3)" LOC = P97;
+NET "sensors_in(4)" LOC = P94;
