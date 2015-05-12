@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold);
+@import url("base.css");
+
+#body {
+	background-color: #ffffff;
+  max-width: 1400px;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 100px 50px 100px
+}
+
+#webcam {
+	margin-top: 100px;
+}
+
+.textbox {
+	margin-right: 50px;
+	width: 300px;
+}
+
+#left_pane {
+	float: left;
+	width: 380px;
+
+}
+#middle_pane {
+  padding-top:100px;
+	float: left;
+}
+#right_pane{
+	float: right;
+	text-align: right;
+}

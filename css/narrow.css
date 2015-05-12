@@ -1,0 +1,48 @@
+@import url("base.css");
+
+#header {
+	color: white;
+	background-color: #3090D0;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 100px 0px 100px
+}
+
+#body {
+	background-color: #ffffff;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 100px 50px 100px
+}
+
+#webcam {
+	margin-top: 100px;
+}
+
+#footer {
+	background-color: #ffffff;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 100px 20px 100px;
+	background-color: #F9F9F9;
+	font-size: 8pt;
+}
+.textbox {
+	margin-right: 50px;
+}
+
+#left_pane {
+	float: left;
+	width: 60%;
+}
+#middle_pane {
+	float: left;
+	margin-bottom: 50px;
+}
+#right_pane{
+	margin:auto;
+	text-align: center;
+}
