@@ -1,7 +1,7 @@
 NET "clk" LOC = P43;
 NET "m0" LOC = P56; # Direction 
 NET "m1" LOC = P13; # step clock
-NET sleep LOC = P44; # sleep to disable the motor
+NET "sleep" LOC = P44; # sleep to disable the motor
 
 NET  "rst" LOC = P83;
  
