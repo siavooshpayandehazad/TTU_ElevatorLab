@@ -4,8 +4,13 @@ NET "m1" LOC = P13; # step clock
 NET sleep LOC = P44; # sleep to disable the motor
  
 <<<<<<< HEAD
+<<<<<<< HEAD
 NET “rst” LOC = P83;
 
+=======
+NET  "rst" LOC = P83;
+ 
+>>>>>>> origin/master
 =======
 NET  "rst" LOC = P83;
  
