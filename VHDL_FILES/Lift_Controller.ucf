@@ -3,7 +3,7 @@ NET "m0" LOC = P56; # Direction
 NET "m1" LOC = P13; # step clock
 NET sleep LOC = P44; # sleep to disable the motor
  
-NET  "rst" LOC = P82;
+NET  "rst" LOC = P83;
  
 NET "Seven_Segment(6)" LOC = P37;
 NET "Seven_Segment(5)" LOC = P36;
