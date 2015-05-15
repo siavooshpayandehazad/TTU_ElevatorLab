@@ -1,32 +1,32 @@
-NET "clk" LOC = P43;
-NET "m0" LOC = P56; # Direction 
-NET "m1" LOC = P13; # step clock
-NET "sleep" LOC = P44; # sleep to disable the motor
+NET "clk" LOC = P43;               # 12 MHz clock input.
+NET "m0" LOC = P56;                # Channel 5 :: I/O :: Motor Direction 
+NET "m1" LOC = P13;                # Channel 22 :: I/O :: Stepper Motor Clock
+NET "sleep" LOC = P44;             # Channel chanClk_io :: I/O :: Stepper Motor Sleep
 
-NET  "rst" LOC = P83;
+NET  "rst" LOC = P83;              # Channel 13 :: I/O 
  
-NET "Seven_Segment(6)" LOC = P37;
-NET "Seven_Segment(5)" LOC = P36;
-NET "Seven_Segment(4)" LOC = P57;
-NET "Seven_Segment(3)" LOC = P61;
-NET "Seven_Segment(2)" LOC = P62;
-NET "Seven_Segment(1)" LOC = P50;
-NET "Seven_Segment(0)" LOC = P52;
+NET "Seven_Segment(6)" LOC = P37;  # Channel 1 :: I/O 
+NET "Seven_Segment(5)" LOC = P36;  # Channel 0 :: I/O 
+NET "Seven_Segment(4)" LOC = P57;  # Channel 6 :: I/O 
+NET "Seven_Segment(3)" LOC = P61;  # Channel 7 :: I/O 
+NET "Seven_Segment(2)" LOC = P62;  # Channel 8 :: I/O 
+NET "Seven_Segment(1)" LOC = P50;  # Channel 3 :: I/O 
+NET "Seven_Segment(0)" LOC = P52;  # Channel 4 :: I/O 
  
-NET "calls(0)" LOC = P21; 
-NET "calls(1)" LOC = P32;
-NET "calls(2)" LOC = P33;
-NET "calls(3)" LOC = P34;
-NET "calls(4)" LOC = P35;
+NET "calls(0)" LOC = P21;          # Channel 19 :: Input Only
+NET "calls(1)" LOC = P32;          # Channel 18 :: I/O 
+NET "calls(2)" LOC = P33;          # Channel 17 :: I/O 
+NET "calls(3)" LOC = P34;          # Channel 16 :: I/O 
+NET "calls(4)" LOC = P35;          # Channel 15 :: I/O 
  
-NET "menu(0)" LOC = P3;
-NET "menu(1)" LOC = P4;
-NET "menu(2)" LOC = P7;
-NET "menu(3)" LOC = P19;
-NET "menu(4)" LOC = P20;
+NET "menu(0)" LOC = P3;            # Channel 26 :: I/O 
+NET "menu(1)" LOC = P4;            # Channel 25 :: I/O 
+NET "menu(2)" LOC = P7;            # Channel 24 :: Input Only
+NET "menu(3)" LOC = P19;           # Channel 21 :: I/O 
+NET "menu(4)" LOC = P20;           # Channel 20 :: I/O 
  
-NET "sensors_in(0)" LOC = P39;
-NET "sensors_in(1)" LOC = P68;
-NET "sensors_in(2)" LOC = P82;
-NET "sensors_in(3)" LOC = P97;
-NET "sensors_in(4)" LOC = P94;
+NET "sensors_in(0)" LOC = P39;     # Channel 2 :: Input Only
+NET "sensors_in(1)" LOC = P68;     # Channel 9 :: Input Only
+NET "sensors_in(2)" LOC = P82;     # Channel 12 :: Input Only
+NET "sensors_in(3)" LOC = P97;     # Channel 27 :: Input Only
+NET "sensors_in(4)" LOC = P94;     # Channel 28 :: I/O 
