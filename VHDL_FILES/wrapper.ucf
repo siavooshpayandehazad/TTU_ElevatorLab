@@ -5,7 +5,7 @@ NET "fpga_clk" LOC = P12;
 NET "top_sensor" LOC = P68;
 NET "bottom_sensor" LOC = P72;
 
-NET “reset_to_controller” LOC = P82;
+NET "reset_to_controller" LOC = P82;
 
 NET "motor_direction" LOC = P94;
 NET "motor_sleep" LOC = P3;
