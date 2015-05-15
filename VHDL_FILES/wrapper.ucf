@@ -1,15 +1,12 @@
 NET "clk" LOC = P43;
-NET "fpga_direction" LOC = P97;
-NET "fpga_sleep" LOC = P4;
-NET "fpga_clk" LOC = P12;
-NET "top_sensor" LOC = P68;
-NET "bottom_sensor" LOC = P72;
+NET "fpga_direction" LOC = P97;       # channel 27   Input-only
+NET "fpga_sleep" LOC = P4;            # channel 25  I/O
+NET "fpga_clk" LOC = P12;             # channel 23  I/O
+NET "top_sensor" LOC = P68;           # channel 9   Input-only
+NET "bottom_sensor" LOC = P72;        # channel 10  I/O
 
-NET "reset_to_controller" LOC = P82;
-
-NET "motor_direction" LOC = P94;
-NET "motor_sleep" LOC = P3;
-NET "motor_clk" LOC = P20;
-NET "top_sensor_out" LOC = P62;
-
-
+NET "reset_to_controller" LOC = P83;  # channel 13   I/O
+NET "motor_direction" LOC = P94;      # channel 28  I/O
+NET "motor_sleep" LOC = P3;           # channel 26  I/O
+NET "motor_clk" LOC = P20;            # channel 20  I/O
+NET "top_sensor_out" LOC = P62;       # channel 8  I/O
