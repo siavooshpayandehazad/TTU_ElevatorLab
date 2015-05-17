@@ -15051,11 +15051,6 @@ Distributor Buerklin, 11G810</description>
 <label x="-116.84" y="175.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<wire x1="-147.32" y1="68.58" x2="-152.4" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="-152.4" y1="66.04" x2="-149.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <label x="-149.86" y="66.04" size="1.778" layer="95"/>
@@ -15224,14 +15219,14 @@ Distributor Buerklin, 11G810</description>
 <label x="-104.14" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="1" pin="9"/>
-<wire x1="-104.14" y1="243.84" x2="-111.76" y2="243.84" width="0.1524" layer="91"/>
-<label x="-111.76" y="243.84" size="1.778" layer="95"/>
+<pinref part="J2" gate="1" pin="10"/>
+<wire x1="-104.14" y1="241.3" x2="-111.76" y2="241.3" width="0.1524" layer="91"/>
+<label x="-111.76" y="241.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="1" pin="9"/>
-<wire x1="-22.86" y1="246.38" x2="-30.48" y2="246.38" width="0.1524" layer="91"/>
-<label x="-30.48" y="246.38" size="1.778" layer="95"/>
+<pinref part="J4" gate="1" pin="10"/>
+<wire x1="-22.86" y1="243.84" x2="-30.48" y2="243.84" width="0.1524" layer="91"/>
+<label x="-30.48" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SO6" class="0">
@@ -15242,6 +15237,16 @@ Distributor Buerklin, 11G810</description>
 <wire x1="-93.98" y1="76.2" x2="-88.9" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-93.98" y="76.2"/>
 <label x="-91.44" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="1" pin="9"/>
+<wire x1="-104.14" y1="243.84" x2="-111.76" y2="243.84" width="0.1524" layer="91"/>
+<label x="-111.76" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="1" pin="9"/>
+<wire x1="-22.86" y1="246.38" x2="-30.48" y2="246.38" width="0.1524" layer="91"/>
+<label x="-30.48" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SO5" class="0">
@@ -15966,18 +15971,6 @@ Distributor Buerklin, 11G810</description>
 <label x="12.7" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SO8" class="0">
-<segment>
-<pinref part="J2" gate="1" pin="10"/>
-<wire x1="-104.14" y1="241.3" x2="-111.76" y2="241.3" width="0.1524" layer="91"/>
-<label x="-111.76" y="241.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J4" gate="1" pin="10"/>
-<wire x1="-22.86" y1="243.84" x2="-30.48" y2="243.84" width="0.1524" layer="91"/>
-<label x="-30.48" y="243.84" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SOFTRST" class="0">
 <segment>
 <pinref part="J1" gate="1" pin="10"/>
@@ -16040,6 +16033,13 @@ Distributor Buerklin, 11G810</description>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="-124.46" y1="38.1" x2="-149.86" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="38.1" x2="-149.86" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-152.4" y1="68.58" x2="-147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
