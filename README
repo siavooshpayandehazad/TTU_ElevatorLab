@@ -16,20 +16,18 @@
 #  / (_/\/    \ ) _ ((  O ))   //    \ )( (  O ))   / )  /      #
 #  \____/\_/\_/(____/ \__/(__\_)\_/\_/(__) \__/(__\_)(__/       #
 =================================================================
-CONTRIBUTORS: 
-                HANNES KINKS
-                MUHAMMAD ADEEL TAJAMMUL
-                SIAVOOSH PAYANDEH AZAD
-		MAREK GRENCSTEIN
-		RALF ANARI
-SUPERVISOR:
-                PEETER ELLERVEEE
+CONTRIBUTORS: 				SUPERVISOR:	
+	SIAVOOSH PAYANDEH AZAD			PEETER ELLERVEEE
+        HANNES KINKS
+        MUHAMMAD ADEEL TAJAMMUL
+	MAREK GRENCSTEIN
+	RALF ANARI
 INSITUTE:       TALLINN UNIVERSITY OF TECHNOLOGY 
-                COMPUTER ENGINEERING DEPARTMENT                
+                COMPUTER ENGINEERING DEPARTMENT        
 YEAR:           2014
+---------------------------
 WIKI:           http://ati.ttu.ee/wiki/index.php/LIFT
 DEMO:           https://www.youtube.com/watch?v=4VPq74wMY-0
-
-
+---------------------------
 NOTE: 		THE UPDATES IN SUB-PROJECTS ARE AVAILABLE IN BRANCHES. WE WILL 
 		MERGE FOR EACH RELEASE.
