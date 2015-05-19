@@ -54,6 +54,8 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -14792,61 +14794,122 @@ Distributor Buerklin, 11G810</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-molex">
-<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="lm1117">
+<description>&lt;b&gt;LM1117 Voltage Regulator&lt;/b&gt;
+&lt;p&gt;800mA LDO Regulator, available in 1.8V, 2.5V, 2.85V, 3.3V, 5V, and adjustable versions.&lt;/p&gt;</description>
 <packages>
-<package name="22-23-2031">
-<description>.100" (2.54mm) Center Header - 3 Pin</description>
-<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<package name="TO220">
+<description>&lt;b&gt;TO-220 Through-hole Package&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.127" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.127" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.127" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<text x="-5.842" y="-1.27" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-1.397" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="12">A17,5mm</text>
+<text x="-3.175" y="0" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="0" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="0" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-4.064" layer="21"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-3.175" y1="-4.064" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-4.064" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-4.064" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="-2.921" y1="-6.604" x2="-2.159" y2="-4.699" layer="51"/>
+<rectangle x1="-0.381" y1="-6.604" x2="0.381" y2="-4.699" layer="51"/>
+<rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
+</package>
+<package name="TO220V">
+<description>&lt;b&gt;TO-220 Standing Through-hole Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.127" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="-3.175" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="-3.175" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
 </packages>
 <symbols>
-<symbol name="MV">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="M">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<symbol name="VREG">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22-23-2031" prefix="X">
-<description>.100" (2.54mm) Center Header - 3 Pin</description>
+<deviceset name="LM1117T-*" prefix="IC">
 <gates>
-<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="G$1" symbol="VREG" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="22-23-2031">
+<device name="" package="TO220">
 <connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2031" constant="no"/>
-<attribute name="OC_FARNELL" value="1462950" constant="no"/>
-<attribute name="OC_NEWARK" value="30C0862" constant="no"/>
-</technology>
+<technology name="1.8"/>
+<technology name="2.5"/>
+<technology name="2.85"/>
+<technology name="3.3"/>
+<technology name="5.0"/>
+</technologies>
+</device>
+<device name="-V" package="TO220V">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.8"/>
+<technology name="2.5"/>
+<technology name="2.85"/>
+<technology name="3.3"/>
+<technology name="5.0"/>
 </technologies>
 </device>
 </devices>
@@ -14864,8 +14927,8 @@ Distributor Buerklin, 11G810</description>
 </class>
 </classes>
 <parts>
-<part name="SV2(MOTOR_DRIVER)" library="con-lsta" deviceset="FE06-1" device=""/>
-<part name="SV3(SEVENSEG)" library="con-lsta" deviceset="FE08W" device=""/>
+<part name="MOTOR_DRIVER" library="con-lsta" deviceset="FE06-1" device=""/>
+<part name="SEVENSEG" library="con-lsta" deviceset="FE08W" device=""/>
 <part name="T1" library="transistor-neu-to92" deviceset="BC237" device=""/>
 <part name="T2" library="transistor-neu-to92" deviceset="BC237" device=""/>
 <part name="T3" library="transistor-neu-to92" deviceset="BC237" device=""/>
@@ -14874,7 +14937,7 @@ Distributor Buerklin, 11G810</description>
 <part name="T6" library="transistor-neu-to92" deviceset="BC237" device=""/>
 <part name="T7" library="transistor-neu-to92" deviceset="BC237" device=""/>
 <part name="RN1" library="resistor-sil" deviceset="G05R" device=""/>
-<part name="SV1" library="con-lsta" deviceset="FE08-1" device=""/>
+<part name="SENSORIN" library="con-lsta" deviceset="FE08-1" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0204/5"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0204/5"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0204/5"/>
@@ -14889,7 +14952,7 @@ Distributor Buerklin, 11G810</description>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0204/5"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="0204/5"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="0204/5"/>
-<part name="SV4(FLOORBUTTON)" library="con-lsta" deviceset="FE06-1" device=""/>
+<part name="FLOORBUTTON" library="con-lsta" deviceset="FE06-1" device=""/>
 <part name="RN2" library="resistor-sil" deviceset="G05R" device=""/>
 <part name="T8" library="transistor-neu-to92" deviceset="BC237" device=""/>
 <part name="T9" library="transistor-neu-to92" deviceset="BC237" device=""/>
@@ -14930,11 +14993,11 @@ Distributor Buerklin, 11G810</description>
 <part name="LED4" library="led" deviceset="LED" device="3MM"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="0204/5"/>
 <part name="S6" library="switch" deviceset="255SB" device=""/>
-<part name="LD1117" library="con-molex" deviceset="22-23-2031" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="025-025X050"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="025-025X050"/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
-<part name="SV5(MENUBUTTON)1" library="con-lsta" deviceset="FE06-1" device=""/>
+<part name="MENUBUTTON" library="con-lsta" deviceset="FE06-1" device=""/>
+<part name="IC1" library="lm1117" deviceset="LM1117T-*" device="-V" technology="3.3"/>
 </parts>
 <sheets>
 <sheet>
@@ -14943,8 +15006,8 @@ Distributor Buerklin, 11G810</description>
 <text x="-10.16" y="256.54" size="1.778" layer="91">Xula 2</text>
 </plain>
 <instances>
-<instance part="SV2(MOTOR_DRIVER)" gate="G$1" x="-160.02" y="7.62"/>
-<instance part="SV3(SEVENSEG)" gate="G$1" x="-22.86" y="165.1"/>
+<instance part="MOTOR_DRIVER" gate="G$1" x="-160.02" y="7.62"/>
+<instance part="SEVENSEG" gate="G$1" x="-22.86" y="165.1"/>
 <instance part="T1" gate="G$1" x="-109.22" y="71.12"/>
 <instance part="T2" gate="G$1" x="-96.52" y="71.12"/>
 <instance part="T3" gate="G$1" x="-86.36" y="71.12"/>
@@ -14953,7 +15016,7 @@ Distributor Buerklin, 11G810</description>
 <instance part="T6" gate="G$1" x="-53.34" y="71.12"/>
 <instance part="T7" gate="G$1" x="-40.64" y="71.12"/>
 <instance part="RN1" gate="G$1" x="-132.08" y="167.64" rot="R270"/>
-<instance part="SV1" gate="G$1" x="-160.02" y="73.66"/>
+<instance part="SENSORIN" gate="G$1" x="-160.02" y="73.66"/>
 <instance part="R8" gate="G$1" x="-142.24" y="83.82"/>
 <instance part="R1" gate="G$1" x="-142.24" y="81.28"/>
 <instance part="R2" gate="G$1" x="-142.24" y="78.74"/>
@@ -14968,7 +15031,7 @@ Distributor Buerklin, 11G810</description>
 <instance part="R12" gate="G$1" x="-60.96" y="83.82" rot="R90"/>
 <instance part="R13" gate="G$1" x="-50.8" y="83.82" rot="R90"/>
 <instance part="R14" gate="G$1" x="-38.1" y="83.82" rot="R90"/>
-<instance part="SV4(FLOORBUTTON)" gate="G$1" x="-162.56" y="167.64"/>
+<instance part="FLOORBUTTON" gate="G$1" x="-162.56" y="167.64"/>
 <instance part="RN2" gate="G$1" x="-124.46" y="134.62" rot="R270"/>
 <instance part="T8" gate="G$1" x="12.7" y="142.24"/>
 <instance part="T9" gate="G$1" x="25.4" y="142.24"/>
@@ -15009,13 +15072,11 @@ Distributor Buerklin, 11G810</description>
 <instance part="LED4" gate="G$1" x="30.48" y="248.92"/>
 <instance part="R34" gate="G$1" x="30.48" y="236.22" rot="R90"/>
 <instance part="S6" gate="1" x="-119.38" y="38.1" rot="MR270"/>
-<instance part="LD1117" gate="-1" x="-33.02" y="27.94" rot="R90"/>
-<instance part="LD1117" gate="-2" x="-30.48" y="27.94" rot="R90"/>
-<instance part="LD1117" gate="-3" x="-27.94" y="27.94" rot="R90"/>
 <instance part="C2" gate="G$1" x="-33.02" y="15.24"/>
 <instance part="C1" gate="G$1" x="-30.48" y="10.16"/>
 <instance part="C3" gate="G$1" x="-25.4" y="10.16"/>
-<instance part="SV5(MENUBUTTON)1" gate="G$1" x="-152.4" y="134.62"/>
+<instance part="MENUBUTTON" gate="G$1" x="-152.4" y="134.62"/>
+<instance part="IC1" gate="G$1" x="-27.94" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -15052,7 +15113,7 @@ Distributor Buerklin, 11G810</description>
 </segment>
 <segment>
 <wire x1="-152.4" y1="66.04" x2="-149.86" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="SENSORIN" gate="G$1" pin="1"/>
 <label x="-149.86" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -15092,7 +15153,7 @@ Distributor Buerklin, 11G810</description>
 <label x="43.18" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="8"/>
+<pinref part="SEVENSEG" gate="G$1" pin="8"/>
 <wire x1="-15.24" y1="175.26" x2="17.78" y2="175.26" width="0.1524" layer="91"/>
 <label x="10.16" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -15110,7 +15171,7 @@ Distributor Buerklin, 11G810</description>
 <junction x="-66.04" y="7.62"/>
 </segment>
 <segment>
-<pinref part="SV2(MOTOR_DRIVER)" gate="G$1" pin="1"/>
+<pinref part="MOTOR_DRIVER" gate="G$1" pin="1"/>
 <wire x1="-152.4" y1="2.54" x2="-144.78" y2="2.54" width="0.1524" layer="91"/>
 <label x="-149.86" y="2.54" size="1.778" layer="95"/>
 </segment>
@@ -15152,17 +15213,17 @@ Distributor Buerklin, 11G810</description>
 <junction x="-25.4" y="5.08"/>
 <wire x1="-22.86" y1="5.08" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="17.78" x2="-27.94" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="LD1117" gate="-3" pin="S"/>
-<wire x1="-27.94" y1="17.78" x2="-27.94" y2="25.4" width="0.1524" layer="91"/>
-<label x="-25.4" y="17.78" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="17.78" x2="-27.94" y2="38.1" width="0.1524" layer="91"/>
+<label x="-25.4" y="27.94" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV4(FLOORBUTTON)" gate="G$1" pin="6"/>
+<pinref part="FLOORBUTTON" gate="G$1" pin="6"/>
 <wire x1="-154.94" y1="175.26" x2="-144.78" y2="175.26" width="0.1524" layer="91"/>
 <label x="-152.4" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV5(MENUBUTTON)1" gate="G$1" pin="6"/>
+<pinref part="MENUBUTTON" gate="G$1" pin="6"/>
 <wire x1="-144.78" y1="142.24" x2="-134.62" y2="142.24" width="0.1524" layer="91"/>
 <label x="-139.7" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -15170,41 +15231,41 @@ Distributor Buerklin, 11G810</description>
 <net name="N$9" class="0">
 <segment>
 <wire x1="-147.32" y1="71.12" x2="-152.4" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="SENSORIN" gate="G$1" pin="3"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <wire x1="-147.32" y1="73.66" x2="-152.4" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
+<pinref part="SENSORIN" gate="G$1" pin="4"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="-152.4" y1="76.2" x2="-147.32" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
+<pinref part="SENSORIN" gate="G$1" pin="5"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <wire x1="-147.32" y1="78.74" x2="-152.4" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="6"/>
+<pinref part="SENSORIN" gate="G$1" pin="6"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="8"/>
+<pinref part="SENSORIN" gate="G$1" pin="8"/>
 <wire x1="-152.4" y1="83.82" x2="-147.32" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="7"/>
+<pinref part="SENSORIN" gate="G$1" pin="7"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-152.4" y1="81.28" x2="-147.32" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -15398,9 +15459,13 @@ Distributor Buerklin, 11G810</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="-25.4" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LD1117" gate="-2" pin="S"/>
 <wire x1="-30.48" y1="25.4" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-30.48" y="12.7"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<wire x1="-20.32" y1="45.72" x2="-7.62" y2="45.72" width="0.1524" layer="91"/>
+<label x="-15.24" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SEN1" class="0">
@@ -15489,7 +15554,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="FB1" class="0">
 <segment>
-<pinref part="SV4(FLOORBUTTON)" gate="G$1" pin="1"/>
+<pinref part="FLOORBUTTON" gate="G$1" pin="1"/>
 <pinref part="RN1" gate="G$1" pin="6"/>
 <wire x1="-154.94" y1="162.56" x2="-137.16" y2="162.56" width="0.1524" layer="91"/>
 <label x="-147.32" y="162.56" size="1.778" layer="95"/>
@@ -15503,7 +15568,7 @@ Distributor Buerklin, 11G810</description>
 <net name="FB2" class="0">
 <segment>
 <pinref part="RN1" gate="G$1" pin="5"/>
-<pinref part="SV4(FLOORBUTTON)" gate="G$1" pin="2"/>
+<pinref part="FLOORBUTTON" gate="G$1" pin="2"/>
 <wire x1="-137.16" y1="165.1" x2="-154.94" y2="165.1" width="0.1524" layer="91"/>
 <label x="-147.32" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -15515,7 +15580,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="FB3" class="0">
 <segment>
-<pinref part="SV4(FLOORBUTTON)" gate="G$1" pin="3"/>
+<pinref part="FLOORBUTTON" gate="G$1" pin="3"/>
 <pinref part="RN1" gate="G$1" pin="4"/>
 <wire x1="-154.94" y1="167.64" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
 <label x="-147.32" y="167.64" size="1.778" layer="95"/>
@@ -15529,7 +15594,7 @@ Distributor Buerklin, 11G810</description>
 <net name="FB4" class="0">
 <segment>
 <pinref part="RN1" gate="G$1" pin="3"/>
-<pinref part="SV4(FLOORBUTTON)" gate="G$1" pin="4"/>
+<pinref part="FLOORBUTTON" gate="G$1" pin="4"/>
 <wire x1="-137.16" y1="170.18" x2="-154.94" y2="170.18" width="0.1524" layer="91"/>
 <label x="-147.32" y="170.18" size="1.778" layer="95"/>
 </segment>
@@ -15541,7 +15606,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="FB5" class="0">
 <segment>
-<pinref part="SV4(FLOORBUTTON)" gate="G$1" pin="5"/>
+<pinref part="FLOORBUTTON" gate="G$1" pin="5"/>
 <pinref part="RN1" gate="G$1" pin="2"/>
 <wire x1="-154.94" y1="172.72" x2="-137.16" y2="172.72" width="0.1524" layer="91"/>
 <label x="-147.32" y="172.72" size="1.778" layer="95"/>
@@ -15557,7 +15622,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="RN2" gate="G$1" pin="5"/>
 <wire x1="-129.54" y1="132.08" x2="-144.78" y2="132.08" width="0.1524" layer="91"/>
 <label x="-139.7" y="132.08" size="1.778" layer="95"/>
-<pinref part="SV5(MENUBUTTON)1" gate="G$1" pin="2"/>
+<pinref part="MENUBUTTON" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J2" gate="1" pin="14"/>
@@ -15570,7 +15635,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="RN2" gate="G$1" pin="6"/>
 <wire x1="-129.54" y1="129.54" x2="-144.78" y2="129.54" width="0.1524" layer="91"/>
 <label x="-139.7" y="129.54" size="1.778" layer="95"/>
-<pinref part="SV5(MENUBUTTON)1" gate="G$1" pin="1"/>
+<pinref part="MENUBUTTON" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J2" gate="1" pin="15"/>
@@ -15583,7 +15648,7 @@ Distributor Buerklin, 11G810</description>
 <wire x1="-144.78" y1="134.62" x2="-129.54" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="RN2" gate="G$1" pin="4"/>
 <label x="-139.7" y="134.62" size="1.778" layer="95"/>
-<pinref part="SV5(MENUBUTTON)1" gate="G$1" pin="3"/>
+<pinref part="MENUBUTTON" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="J2" gate="1" pin="13"/>
@@ -15596,7 +15661,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="RN2" gate="G$1" pin="3"/>
 <wire x1="-129.54" y1="137.16" x2="-144.78" y2="137.16" width="0.1524" layer="91"/>
 <label x="-139.7" y="137.16" size="1.778" layer="95"/>
-<pinref part="SV5(MENUBUTTON)1" gate="G$1" pin="4"/>
+<pinref part="MENUBUTTON" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="J2" gate="1" pin="12"/>
@@ -15609,7 +15674,7 @@ Distributor Buerklin, 11G810</description>
 <pinref part="RN2" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="139.7" x2="-129.54" y2="139.7" width="0.1524" layer="91"/>
 <label x="-139.7" y="139.7" size="1.778" layer="95"/>
-<pinref part="SV5(MENUBUTTON)1" gate="G$1" pin="5"/>
+<pinref part="MENUBUTTON" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="J2" gate="1" pin="11"/>
@@ -15668,7 +15733,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS1" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="1"/>
+<pinref part="SEVENSEG" gate="G$1" pin="1"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="157.48" x2="5.08" y2="157.48" width="0.1524" layer="91"/>
 <label x="-12.7" y="157.48" size="1.778" layer="95"/>
@@ -15676,7 +15741,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS2" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="2"/>
+<pinref part="SEVENSEG" gate="G$1" pin="2"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="160.02" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="-12.7" y="160.02" size="1.778" layer="95"/>
@@ -15684,7 +15749,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS3" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="3"/>
+<pinref part="SEVENSEG" gate="G$1" pin="3"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
 <label x="-12.7" y="162.56" size="1.778" layer="95"/>
@@ -15692,7 +15757,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS4" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="4"/>
+<pinref part="SEVENSEG" gate="G$1" pin="4"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="165.1" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
 <label x="-12.7" y="165.1" size="1.778" layer="95"/>
@@ -15700,7 +15765,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS5" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="5"/>
+<pinref part="SEVENSEG" gate="G$1" pin="5"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
 <label x="-12.7" y="167.64" size="1.778" layer="95"/>
@@ -15708,7 +15773,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS6" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="6"/>
+<pinref part="SEVENSEG" gate="G$1" pin="6"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
 <label x="-12.7" y="170.18" size="1.778" layer="95"/>
@@ -15716,7 +15781,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="ON_BOARDSS7" class="0">
 <segment>
-<pinref part="SV3(SEVENSEG)" gate="G$1" pin="7"/>
+<pinref part="SEVENSEG" gate="G$1" pin="7"/>
 <wire x1="-15.24" y1="172.72" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <label x="-12.7" y="172.72" size="1.778" layer="95"/>
@@ -15886,7 +15951,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="DIR" class="0">
 <segment>
-<pinref part="SV2(MOTOR_DRIVER)" gate="G$1" pin="2"/>
+<pinref part="MOTOR_DRIVER" gate="G$1" pin="2"/>
 <wire x1="-152.4" y1="5.08" x2="-144.78" y2="5.08" width="0.1524" layer="91"/>
 <label x="-149.86" y="5.08" size="1.778" layer="95"/>
 </segment>
@@ -15903,7 +15968,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="SLEEP" class="0">
 <segment>
-<pinref part="SV2(MOTOR_DRIVER)" gate="G$1" pin="3"/>
+<pinref part="MOTOR_DRIVER" gate="G$1" pin="3"/>
 <wire x1="-152.4" y1="7.62" x2="-144.78" y2="7.62" width="0.1524" layer="91"/>
 <label x="-149.86" y="7.62" size="1.778" layer="95"/>
 </segment>
@@ -15920,7 +15985,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="MOTORCLK" class="0">
 <segment>
-<pinref part="SV2(MOTOR_DRIVER)" gate="G$1" pin="4"/>
+<pinref part="MOTOR_DRIVER" gate="G$1" pin="4"/>
 <wire x1="-152.4" y1="10.16" x2="-144.78" y2="10.16" width="0.1524" layer="91"/>
 <label x="-149.86" y="10.16" size="1.778" layer="95"/>
 </segment>
@@ -15932,7 +15997,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="MOTORVCC" class="0">
 <segment>
-<pinref part="SV2(MOTOR_DRIVER)" gate="G$1" pin="5"/>
+<pinref part="MOTOR_DRIVER" gate="G$1" pin="5"/>
 <wire x1="-152.4" y1="12.7" x2="-144.78" y2="12.7" width="0.1524" layer="91"/>
 <label x="-149.86" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -15947,10 +16012,14 @@ Distributor Buerklin, 11G810</description>
 <label x="-111.76" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LD1117" gate="-1" pin="S"/>
 <wire x1="-33.02" y1="25.4" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
 <label x="-33.02" y="17.78" size="1.778" layer="95" rot="R90"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="-35.56" y1="45.72" x2="-48.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="-45.72" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -16037,7 +16106,7 @@ Distributor Buerklin, 11G810</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="2"/>
+<pinref part="SENSORIN" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-152.4" y1="68.58" x2="-147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
