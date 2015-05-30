@@ -5,7 +5,7 @@ USE ieee.numeric_std.ALL;
 ENTITY lift_tb IS
 END lift_tb;
  
-RCHITECTURE behavior OF lift_tb IS 
+ARCHITECTURE behavior OF lift_tb IS 
  
    -- Component Declaration for the Unit Under Test (UUT)
    -- fix this component for your design 
